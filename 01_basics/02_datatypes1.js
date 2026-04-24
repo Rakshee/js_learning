@@ -27,3 +27,12 @@ const myFunction=function(){
 
 
 console.log(typeof myFunction)
+
+
+////////////////++++++++++
+
+
+//memory 2 types: heap, stack
+
+//primitive types are stored in stack
+//non primitive types are stored in heap and reference of that is stored in stack   
