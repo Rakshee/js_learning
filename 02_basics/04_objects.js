@@ -24,7 +24,7 @@ const obj2={3:"c",4:"d"}
 
 //const obj3={obj1,obj2}
 const obj3=Object.assign({},obj1,obj2);
-console.log(obj3);
+//console.log(obj3);
 
 
 
@@ -44,6 +44,16 @@ const user=[
             }
 ]
 
-console.log(Object.keys(tinderUser))
+//console.log(Object.keys(tinderUser))
+
+//de structureing
+const course={
+    courseName:"JavaScript",
+    price:999,
+    courseInstructor:"Kunu zz"
+}
+
+const {courseInstructor: instructor}=course
+console.log(instructor);
 
 
